@@ -51,13 +51,10 @@ p {
 .content p:first-of-type {
   color: #0ea5e9;
   font-weight: bold;
-  margin-top: -0.1rem;
   font-size: 0.90rem;
 }
 .content {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 
   margin-left: 1.25rem;
@@ -66,17 +63,19 @@ p {
   width: 50%;
 }
 
-.images {
+.rotating-image {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
-.images img {
+.rotating-image img {
+  max-height: 20rem;
   border-radius: 5%;
-  width: 15rem;
+  width: min-content;
 }
 
 .markerColor li::marker {
@@ -105,4 +104,19 @@ li {
 
 .lists h2 {
   font-size: large;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+}
+
+.name .text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.name img {
+  border-radius: 10%;
 }
