@@ -1,0 +1,108 @@
+html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(249 250 251);
+  color: rgb(15 23 42);
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-half {
+  height: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 20rem;
+}
+
+.content p {
+  text-align: left;
+  width: 100%;
+}
+
+.content h1 {
+  margin-bottom: 0;
+}
+
+.content p:first-of-type {
+  color: #0ea5e9;
+  font-weight: bold;
+  margin-top: -0.1rem;
+  font-size: 0.90rem;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+
+  width: 50%;
+}
+
+.images {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images img {
+  border-radius: 5%;
+  width: 15rem;
+}
+
+.markerColor li::marker {
+  color: #b3bcc5;
+}
+
+li {
+  margin-bottom: 1rem;
+  padding-left: 0.5rem;
+}
+
+.lists {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.lists div:first-child {
+  padding-right: 2rem;
+  margin-right: 2rem;
+}
+
+.lists div:first-child ul {
+  border-right: 1px solid #cbd5e1;
+}
+
+.lists h2 {
+  font-size: large;
+}
